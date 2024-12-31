@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E1EACD;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #E1EACD;
+    color: #2A004E;
+    align-items: center;
+    font-weight: bold;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.nav-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #8D77AB;
+    font-size: 1rem;
+    transition: color 0.2s ease, border-bottom 0.2s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #2A004E;
+    border-bottom: 3px solid #2A004E;
+}
+
+.cta-button:hover {
+    transition: transform 0.2s ease;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+    width: 100%;
+    padding: 20px;
+}
+
+.text-content {
+    color: #2A004E;
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 1.6rem;
+    color: #8D77AB;
+    font-weight: 600;
+    border: 2px solid #8D77AB;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #2A004E;
+    border: 2px solid #2A004E;
+    color: white;
+}
+
+.image-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.image-content img {
+    max-width: 150%;
+    height: auto;
+    border-radius: 10px;
+}
