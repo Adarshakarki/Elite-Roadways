@@ -28,7 +28,6 @@ Traditional bus booking systems rely on paper tickets and manual registers, lead
   
 Elite Roadways replaces all of this with a clean, automated, and scalable platform that can serve as the foundation for a commercial ticket booking service.
 
-## 📷 Images
 ## 📷 Screenshots
 
 ### Landing Page
